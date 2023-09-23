@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="bg-slate-900 h-screen text-white">
     <NuxtLayout>
       <header class="flex items-center justify-center p-3">
         <ul>
@@ -10,6 +10,7 @@
           </li>
         </ul>
       </header>
+      <Header></Header>
       <NuxtPage/>
     </NuxtLayout>
   </div>
