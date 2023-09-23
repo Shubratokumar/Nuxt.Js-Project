@@ -5,7 +5,7 @@
     </h1>
   </div>
 </template>
-<script setup lang="ts">
+<script setup >
     // we can access the route with the useRoute method
     // const route = useRoute();
     // console.log(route.params.id);  
