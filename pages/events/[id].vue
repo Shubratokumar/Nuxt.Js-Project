@@ -5,7 +5,12 @@
     </h1>
   </div>
 </template>
-<script setup>
-    const route = useRoute();
-    console.log(route.params.id);    
+<script setup lang="ts">
+    // we can access the route with the useRoute method
+    // const route = useRoute();
+    // console.log(route.params.id);  
+
+    // we can access current/runtime context of the application with useNuxtApp method 
+    const nuxt = useNuxtApp();
+    console.log(nuxt);      
 </script>
