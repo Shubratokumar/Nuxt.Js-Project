@@ -1,7 +1,7 @@
 <template>
   <div class="bg-slate-900 h-screen text-white">
     <NuxtLayout>
-      <header class="flex items-center justify-center p-3">
+      <!-- <header class="flex items-center justify-center p-3">
         <ul>
           <li>
             <NuxtLink class="mx-2" to="/">Home</NuxtLink>
@@ -10,7 +10,7 @@
           </li>
         </ul>
       </header>
-      <Header></Header>
+      <Header></Header> -->
       <NuxtPage/>
     </NuxtLayout>
   </div>
