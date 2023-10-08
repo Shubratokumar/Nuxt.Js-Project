@@ -1,10 +1,10 @@
 {
-  "name": "nuxt-app",
+  "name": "nuxt practice project",
   "private": true,
   "type": "module",
   "scripts": {
     "build": "nuxt build",
-    "dev": "nuxt dev",
+    "serve": "nuxt dev",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare"
